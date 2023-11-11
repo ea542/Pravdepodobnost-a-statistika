@@ -1,7 +1,7 @@
 # exponencialni rozdeleni, centralni limitni veta
 
 lam = 1/5   # parametr intenzity exp. rozdeleni
-n = 510     # pocet scitanych velicin
+n = 51     # pocet scitanych velicin
 t = 100000  # pocet vzorku
 
 re = rowSums(matrix(rexp(n*t, lam), ncol=n)) # t vzorku souctu n exponencialnich  velicin
